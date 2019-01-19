@@ -8852,6 +8852,7 @@ export interface ARTStatic {
     Shape: typeof Shape;
     Surface: typeof Surface;
     Text: typeof ARTText;
+    Path: any
 }
 
 export interface KeyboardStatic extends NativeEventEmitter {
